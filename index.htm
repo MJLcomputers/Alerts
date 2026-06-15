@@ -1,719 +1,254 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
-<title>ELIFAMILYMEDICINE</title>
-<meta name='robots' content='max-image-preview:large' />
-	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	<link rel='dns-prefetch' href='//use.fontawesome.com' />
-<link rel="alternate" type="application/rss+xml" title="ELIFAMILYMEDICINE &raquo; Feed" href="https://easternlifamilymed.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="ELIFAMILYMEDICINE &raquo; Comments Feed" href="https://easternlifamilymed.com/comments/feed/" />
-<script type="text/javascript">
-/* <![CDATA[ */
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/easternlifamilymed.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
-/*! This file is auto-generated */
-!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
-/* ]]> */
-</script>
-<style id='wp-emoji-styles-inline-css' type='text/css'>
+    <title>MJL Alarm Manager</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; max-width: 550px; margin: 30px auto; background: #f0f2f5; color: #1c1e21; padding: 0 15px; }
+        .card { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        
+        /* Digital Clock Styles */
+        .clock-container { text-align: center; background: #1c1e21; color: #00ff41; padding: 15px; border-radius: 8px; margin-bottom: 20px; font-family: 'Courier New', monospace; box-shadow: inset 0 0 10px #000; }
+        .clock-time { font-size: 3.0em; font-weight: bold; color: #0000ff; }
+        .clock-date { font-size: 1.5em; font-weight: bold; color: #0000ff; }
 
-	img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}
-</style>
-<link rel='stylesheet' id='wp-block-library-css' href='https://easternlifamilymed.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-</style>
-<link rel='stylesheet' id='wpzoom-social-icons-block-style-css' href='https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/block/dist/style-wpzoom-social-icons.css?ver=4.3.4' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-svg-styles-css' href='https://easternlifamilymed.com/wp-content/uploads/font-awesome/v6.4.2/css/svg-with-js.css' type='text/css' media='all' />
-<style id='font-awesome-svg-styles-inline-css' type='text/css'>
-   .wp-block-font-awesome-icon svg::before,
-   .wp-rich-text-font-awesome-icon svg::before {content: unset;}
-</style>
-<style id='global-styles-inline-css' type='text/css'>
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
-:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
-</style>
-<link rel='stylesheet' id='contact-form-7-css' href='https://easternlifamilymed.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.4' type='text/css' media='all' />
-<link rel='stylesheet' id='sr7css-css' href='//easternlifamilymed.com/wp-content/plugins/revslider/public/css/sr7.css?ver=6.7.20' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-bootstrap-starter-bootstrap-css-css' href='https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/css/bootstrap.min.css?ver=6.8.3' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-bootstrap-starter-fontawesome-cdn-css' href='https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/css/fontawesome.min.css?ver=6.8.3' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-bootstrap-starter-style-css' href='https://easternlifamilymed.com/wp-content/themes/custom-theme/style.css?ver=6.8.3' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-carousel.min.css-css' href='https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/css/owl.carousel.min.css?ver=6.8.3' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-default-min.css-css' href='https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/css/owl.theme.default.min.css?ver=6.8.3' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-official-css' href='https://use.fontawesome.com/releases/v6.4.2/css/all.css' type='text/css' media='all' integrity="sha384-blOohCVdhjmtROpu8+CfTnUWham9nkX7P7OZQMst+RUnhtoY/9qemFAkIKOYxDI3" crossorigin="anonymous" />
-<link rel='stylesheet' id='wpzoom-social-icons-socicon-css' href='https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/wpzoom-socicon.css?ver=1733903427' type='text/css' media='all' />
-<link rel='stylesheet' id='wpzoom-social-icons-genericons-css' href='https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/genericons.css?ver=1733903427' type='text/css' media='all' />
-<link rel='stylesheet' id='wpzoom-social-icons-academicons-css' href='https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/academicons.min.css?ver=1733903427' type='text/css' media='all' />
-<link rel='stylesheet' id='wpzoom-social-icons-font-awesome-3-css' href='https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/font-awesome-3.min.css?ver=1733903427' type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css' href='https://easternlifamilymed.com/wp-includes/css/dashicons.min.css?ver=6.8.3' type='text/css' media='all' />
-<link rel='stylesheet' id='wpzoom-social-icons-styles-css' href='https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/wpzoom-social-icons-styles.css?ver=1733903427' type='text/css' media='all' />
-<link rel='stylesheet' id='js_composer_front-css' href='https://easternlifamilymed.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=8.2' type='text/css' media='all' />
-<link rel='stylesheet' id='bsf-Defaults-css' href='https://easternlifamilymed.com/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=3.20.0' type='text/css' media='all' />
-<link rel='stylesheet' id='ultimate-vc-addons-style-css' href='https://easternlifamilymed.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/style.min.css?ver=3.20.0' type='text/css' media='all' />
-<link rel='stylesheet' id='ultimate-vc-addons-animate-css' href='https://easternlifamilymed.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/animate.min.css?ver=3.20.0' type='text/css' media='all' />
-<link rel='stylesheet' id='ultimate-vc-addons-info-box-style-css' href='https://easternlifamilymed.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/info-box.min.css?ver=3.20.0' type='text/css' media='all' />
-<link rel='stylesheet' id='ultimate-vc-addons-stats-counter-style-css' href='https://easternlifamilymed.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/stats-counter.min.css?ver=3.20.0' type='text/css' media='all' />
-<link rel='preload' as='font'  id='wpzoom-social-icons-font-academicons-woff2-css' href='https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/academicons.woff2?v=1.9.2'  type='font/woff2' crossorigin />
-<link rel='preload' as='font'  id='wpzoom-social-icons-font-fontawesome-3-woff2-css' href='https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/fontawesome-webfont.woff2?v=4.7.0'  type='font/woff2' crossorigin />
-<link rel='preload' as='font'  id='wpzoom-social-icons-font-genericons-woff-css' href='https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/Genericons.woff'  type='font/woff' crossorigin />
-<link rel='preload' as='font'  id='wpzoom-social-icons-font-socicon-woff2-css' href='https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.woff2?v=4.3.4'  type='font/woff2' crossorigin />
-<link rel='stylesheet' id='font-awesome-official-v4shim-css' href='https://use.fontawesome.com/releases/v6.4.2/css/v4-shims.css' type='text/css' media='all' integrity="sha384-IqMDcR2qh8kGcGdRrxwop5R2GiUY5h8aDR/LhYxPYiXh3sAAGGDkFvFqWgFvTsTd" crossorigin="anonymous" />
-<script type="text/javascript" src="//easternlifamilymed.com/wp-content/plugins/revslider/public/js/libs/tptools.js?ver=6.7.20" id="tp-tools-js" async="async" data-wp-strategy="async"></script>
-<script type="text/javascript" src="//easternlifamilymed.com/wp-content/plugins/revslider/public/js/sr7.js?ver=6.7.20" id="sr7-js" async="async" data-wp-strategy="async"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<!--[if lt IE 9]>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/js/html5.js?ver=3.7.0" id="html5hiv-js"></script>
-<![endif]-->
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate-params.min.js?ver=3.20.0" id="ultimate-vc-addons-params-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/jquery-appear.min.js?ver=3.20.0" id="ultimate-vc-addons-appear-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/custom.min.js?ver=3.20.0" id="ultimate-vc-addons-custom-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/countUp.min.js?ver=3.20.0" id="ultimate-vc-addons-stats-counter-js-js"></script>
-<script></script><link rel="https://api.w.org/" href="https://easternlifamilymed.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://easternlifamilymed.com/wp-json/wp/v2/pages/9" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://easternlifamilymed.com/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 6.8.3" />
-<link rel="canonical" href="https://easternlifamilymed.com/" />
-<link rel='shortlink' href='https://easternlifamilymed.com/' />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://easternlifamilymed.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feasternlifamilymed.com%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://easternlifamilymed.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feasternlifamilymed.com%2F&#038;format=xml" />
-<link rel="pingback" href="https://easternlifamilymed.com/xmlrpc.php">    <style type="text/css">
-        #page-sub-header { background: #fff; }
+        .input-group { margin-bottom: 12px; }
+        .input-group label { display: block; font-size: 0.85em; color: #606770; margin-bottom: 4px; }
+        input[type="text"], input[type="datetime-local"], .vol-slider { width: 95%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 1em; }
+        
+        /* Modal Window */
+        .modal { display: none; position: fixed; z-index: 100; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); backdrop-filter: blur(3px); }
+        .modal-content { background: #fff; margin: 5% auto; padding: 20px; width: 90%; max-width: 500px; border-radius: 15px; max-height: 80vh; overflow-y: auto; position: relative; }
+        
+        .alarm-item { border-left: 6px solid #4267b2; padding: 15px; margin: 12px 0; background: #f9f9f9; display: flex; justify-content: space-between; align-items: center; border-radius: 8px; }
+        .alarm-item.ringing { background: #fff0f0; border-left-color: #ff4d4d; animation: pulse 1.5s infinite; }
+        @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(255, 77, 77, 0.4); } 70% { box-shadow: 0 0 0 12px rgba(255, 77, 77, 0); } 100% { box-shadow: 0 0 0 0 rgba(255, 77, 77, 0); } }
+        
+        .countdown { font-weight: bold; color: #e41e3f; font-family: monospace; font-size: 1.1em; }
+        .btn-main { background: #4267b2; color: white; border: none; padding: 12px; border-radius: 8px; width: 100%; font-weight: bold; cursor: pointer; margin-top: 10px; font-size: 1em; }
+        .btn-view { background: #67c23a; }
+        .btn-danger { background: #ff4d4d; color: white; border: none; padding: 8px; border-radius: 4px; cursor: pointer; }
+        .btn-snooze { background: #f0ad4e; color: white; border: none; padding: 8px; border-radius: 4px; cursor: pointer; margin-right: 5px;}
+        .close-btn { position: absolute; right: 20px; top: 15px; cursor: pointer; font-size: 1.5em; }
     </style>
-    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-<meta name="generator" content="Powered by Slider Revolution 6.7.20 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-<link rel="icon" href="https://easternlifamilymed.com/wp-content/uploads/2024/12/Elifamilymedicine-150x50.png" sizes="32x32" />
-<link rel="icon" href="https://easternlifamilymed.com/wp-content/uploads/2024/12/Elifamilymedicine.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="https://easternlifamilymed.com/wp-content/uploads/2024/12/Elifamilymedicine.png" />
-<meta name="msapplication-TileImage" content="https://easternlifamilymed.com/wp-content/uploads/2024/12/Elifamilymedicine.png" />
-<script>
-	window._tpt			??= {};
-	window.SR7			??= {};
-	_tpt.R				??= {};
-	_tpt.R.fonts		??= {};
-	_tpt.R.fonts.customFonts??= {};
-	SR7.devMode			=  false;
-	SR7.F 				??= {};
-	SR7.G				??= {};
-	SR7.LIB				??= {};
-	SR7.E				??= {};
-	SR7.E.gAddons		??= {};
-	SR7.E.php 			??= {};
-	SR7.E.nonce			= 'bb7fdbbe52';
-	SR7.E.ajaxurl		= 'https://easternlifamilymed.com/wp-admin/admin-ajax.php';
-	SR7.E.resturl		= 'https://easternlifamilymed.com/wp-json/';
-	SR7.E.slug_path		= 'revslider/revslider.php';
-	SR7.E.slug			= 'revslider';
-	SR7.E.plugin_url	= 'https://easternlifamilymed.com/wp-content/plugins/revslider/';
-	SR7.E.wp_plugin_url = 'https://easternlifamilymed.com/wp-content/plugins/';
-	SR7.E.revision		= '6.7.20';
-	SR7.E.fontBaseUrl	= '//fonts.googleapis.com/css2?family=';
-	SR7.G.breakPoints 	= [1240,1024,778,480];
-	SR7.E.modules 		= ['module','page','slide','layer','draw','animate','srtools','canvas','defaults','carousel','navigation','media','modifiers','migration'];
-	SR7.E.libs 			= ['WEBGL'];
-	SR7.E.css 			= ['csslp','cssbtns','cssfilters','cssnav','cssmedia'];
-	SR7.E.resources		= {};
-	SR7.JSON			??= {};
-/*! Slider Revolution 7.0 - Page Processor */
-!function(){"use strict";window.SR7??={},window._tpt??={},SR7.version="Slider Revolution 6.7.16",_tpt.getWinDim=function(t){_tpt.screenHeightWithUrlBar??=window.innerHeight;let e=SR7.F?.modal?.visible&&SR7.M[SR7.F.module.getIdByAlias(SR7.F.modal.requested)];_tpt.scrollBar=window.innerWidth!==document.documentElement.clientWidth||e&&window.innerWidth!==e.c.module.clientWidth,_tpt.winW=window.innerWidth-(_tpt.scrollBar||"prepare"==t?_tpt.scrollBarW??_tpt.mesureScrollBar():0),_tpt.winH=window.innerHeight,_tpt.winWAll=document.documentElement.clientWidth},_tpt.getResponsiveLevel=function(t,e){SR7.M[e];return _tpt.closestGE(t,_tpt.winWAll)},_tpt.mesureScrollBar=function(){let t=document.createElement("div");return t.className="RSscrollbar-measure",t.style.width="100px",t.style.height="100px",t.style.overflow="scroll",t.style.position="absolute",t.style.top="-9999px",document.body.appendChild(t),_tpt.scrollBarW=t.offsetWidth-t.clientWidth,document.body.removeChild(t),_tpt.scrollBarW},_tpt.loadCSS=async function(t,e,s){return s?_tpt.R.fonts.required[e].status=1:(_tpt.R[e]??={},_tpt.R[e].status=1),new Promise(((n,i)=>{if(_tpt.isStylesheetLoaded(t))s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,n();else{const l=document.createElement("link");l.rel="stylesheet";let o="text",r="css";l["type"]=o+"/"+r,l.href=t,l.onload=()=>{s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,n()},l.onerror=()=>{s?_tpt.R.fonts.required[e].status=3:_tpt.R[e].status=3,i(new Error(`Failed to load CSS: ${t}`))},document.head.appendChild(l)}}))},_tpt.addContainer=function(t){const{tag:e="div",id:s,class:n,datas:i,textContent:l,iHTML:o}=t,r=document.createElement(e);if(s&&""!==s&&(r.id=s),n&&""!==n&&(r.className=n),i)for(const[t,e]of Object.entries(i))"style"==t?r.style.cssText=e:r.setAttribute(`data-${t}`,e);return l&&(r.textContent=l),o&&(r.innerHTML=o),r},_tpt.collector=function(){return{fragment:new DocumentFragment,add(t){var e=_tpt.addContainer(t);return this.fragment.appendChild(e),e},append(t){t.appendChild(this.fragment)}}},_tpt.isStylesheetLoaded=function(t){let e=t.split("?")[0];return Array.from(document.querySelectorAll('link[rel="stylesheet"], link[rel="preload"]')).some((t=>t.href.split("?")[0]===e))},_tpt.preloader={requests:new Map,preloaderTemplates:new Map,show:function(t,e){if(!e||!t)return;const{type:s,color:n}=e;if(s<0||"off"==s)return;const i=`preloader_${s}`;let l=this.preloaderTemplates.get(i);l||(l=this.build(s,n),this.preloaderTemplates.set(i,l)),this.requests.has(t)||this.requests.set(t,{count:0});const o=this.requests.get(t);clearTimeout(o.timer),o.count++,1===o.count&&(o.timer=setTimeout((()=>{o.preloaderClone=l.cloneNode(!0),o.anim&&o.anim.kill(),void 0!==_tpt.gsap?o.anim=_tpt.gsap.fromTo(o.preloaderClone,1,{opacity:0},{opacity:1}):o.preloaderClone.classList.add("sr7-fade-in"),t.appendChild(o.preloaderClone)}),150))},hide:function(t){if(!this.requests.has(t))return;const e=this.requests.get(t);e.count--,e.count<0&&(e.count=0),e.anim&&e.anim.kill(),0===e.count&&(clearTimeout(e.timer),e.preloaderClone&&(e.preloaderClone.classList.remove("sr7-fade-in"),e.anim=_tpt.gsap.to(e.preloaderClone,.3,{opacity:0,onComplete:function(){e.preloaderClone.remove()}})))},state:function(t){if(!this.requests.has(t))return!1;return this.requests.get(t).count>0},build:(t,e="#ffffff",s="")=>{if(t<0||"off"===t)return null;const n=parseInt(t);if(t="prlt"+n,isNaN(n))return null;if(_tpt.loadCSS(SR7.E.plugin_url+"public/css/preloaders/t"+n+".css","preloader_"+t),isNaN(n)||n<6){const i=`background-color:${e}`,l=1===n||2==n?i:"",o=3===n||4==n?i:"",r=_tpt.collector();["dot1","dot2","bounce1","bounce2","bounce3"].forEach((t=>r.add({tag:"div",class:t,datas:{style:o}})));const d=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`,datas:{style:l}});return r.append(d),d}{let i={};if(7===n){let t;e.startsWith("#")?(t=e.replace("#",""),t=`rgba(${parseInt(t.substring(0,2),16)}, ${parseInt(t.substring(2,4),16)}, ${parseInt(t.substring(4,6),16)}, `):e.startsWith("rgb")&&(t=e.slice(e.indexOf("(")+1,e.lastIndexOf(")")).split(",").map((t=>t.trim())),t=`rgba(${t[0]}, ${t[1]}, ${t[2]}, `),t&&(i.style=`border-top-color: ${t}0.65); border-bottom-color: ${t}0.15); border-left-color: ${t}0.65); border-right-color: ${t}0.15)`)}else 12===n&&(i.style=`background:${e}`);const l=[10,0,4,2,5,9,0,4,4,2][n-6],o=_tpt.collector(),r=o.add({tag:"div",class:"sr7-prl-inner",datas:i});Array.from({length:l}).forEach((()=>r.appendChild(o.add({tag:"span",datas:{style:`background:${e}`}}))));const d=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`});return o.append(d),d}}},SR7.preLoader={show:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.show(e||SR7.M[t].c.module,SR7.M[t]?.settings?.pLoader??{color:"#fff",type:10})},hide:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.hide(e||SR7.M[t].c.module)},state:(t,e)=>_tpt.preloader.state(e||SR7.M[t].c.module)},_tpt.prepareModuleHeight=function(t){window.SR7.M??={},window.SR7.M[t.id]??={},"ignore"==t.googleFont&&(SR7.E.ignoreGoogleFont=!0);let e=window.SR7.M[t.id];if(null==_tpt.scrollBarW&&_tpt.mesureScrollBar(),e.c??={},e.states??={},e.settings??={},e.settings.size??={},t.fixed&&(e.settings.fixed=!0),e.c.module=document.getElementById(t.id),e.c.adjuster=e.c.module.getElementsByTagName("sr7-adjuster")[0],e.c.content=e.c.module.getElementsByTagName("sr7-content")[0],"carousel"==t.type&&(e.c.carousel=e.c.content.getElementsByTagName("sr7-carousel")[0]),null==e.c.module||null==e.c.module)return;t.plType&&t.plColor&&(e.settings.pLoader={type:t.plType,color:t.plColor}),void 0!==t.plType&&"off"!==t.plType&&SR7.preLoader.show(t.id,e.c.module),_tpt.winW||_tpt.getWinDim("prepare"),_tpt.getWinDim();let s=""+e.c.module.dataset?.modal;"modal"==s||"true"==s||"undefined"!==s&&"false"!==s||(e.settings.size.fullWidth=t.size.fullWidth,e.LEV??=_tpt.getResponsiveLevel(window.SR7.G.breakPoints,t.id),t.vpt=_tpt.fillArray(t.vpt,5),e.settings.vPort=t.vpt[e.LEV],void 0!==t.el&&"720"==t.el[4]&&t.gh[4]!==t.el[4]&&"960"==t.el[3]&&t.gh[3]!==t.el[3]&&"768"==t.el[2]&&t.gh[2]!==t.el[2]&&delete t.el,e.settings.size.height=null==t.el||null==t.el[e.LEV]||0==t.el[e.LEV]||"auto"==t.el[e.LEV]?_tpt.fillArray(t.gh,5,-1):_tpt.fillArray(t.el,5,-1),e.settings.size.width=_tpt.fillArray(t.gw,5,-1),e.settings.size.minHeight=_tpt.fillArray(t.mh??[0],5,-1),e.cacheSize={fullWidth:e.settings.size?.fullWidth,fullHeight:e.settings.size?.fullHeight},void 0!==t.off&&(t.off?.t&&(e.settings.size.m??={})&&(e.settings.size.m.t=t.off.t),t.off?.b&&(e.settings.size.m??={})&&(e.settings.size.m.b=t.off.b),t.off?.l&&(e.settings.size.p??={})&&(e.settings.size.p.l=t.off.l),t.off?.r&&(e.settings.size.p??={})&&(e.settings.size.p.r=t.off.r),e.offsetPrepared=!0),_tpt.updatePMHeight(t.id,t,!0))},_tpt.updatePMHeight=(t,e,s)=>{let n=SR7.M[t];var i=n.settings.size.fullWidth?_tpt.winW:n.c.module.parentNode.offsetWidth;i=0===i||isNaN(i)?_tpt.winW:i;let l=n.settings.size.width[n.LEV]||n.settings.size.width[n.LEV++]||n.settings.size.width[n.LEV--]||i,o=n.settings.size.height[n.LEV]||n.settings.size.height[n.LEV++]||n.settings.size.height[n.LEV--]||0,r=n.settings.size.minHeight[n.LEV]||n.settings.size.minHeight[n.LEV++]||n.settings.size.minHeight[n.LEV--]||0;if(o="auto"==o?0:o,o=parseInt(o),"carousel"!==e.type&&(i-=parseInt(e.onw??0)||0),n.MP=!n.settings.size.fullWidth&&i<l||_tpt.winW<l?Math.min(1,i/l):1,e.size.fullScreen||e.size.fullHeight){let t=parseInt(e.fho)||0,s=(""+e.fho).indexOf("%")>-1;e.newh=_tpt.winH-(s?_tpt.winH*t/100:t)}else e.newh=n.MP*Math.max(o,r);if(e.newh+=(parseInt(e.onh??0)||0)+(parseInt(e.carousel?.pt)||0)+(parseInt(e.carousel?.pb)||0),void 0!==e.slideduration&&(e.newh=Math.max(e.newh,parseInt(e.slideduration)/3)),e.shdw&&_tpt.buildShadow(e.id,e),n.c.adjuster.style.height=e.newh+"px",n.c.module.style.height=e.newh+"px",n.c.content.style.height=e.newh+"px",n.states.heightPrepared=!0,n.dims??={},n.dims.moduleRect=n.c.module.getBoundingClientRect(),n.c.content.style.left="-"+n.dims.moduleRect.left+"px",!n.settings.size.fullWidth)return s&&requestAnimationFrame((()=>{i!==n.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)})),void _tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0);_tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0),requestAnimationFrame((function(){s&&requestAnimationFrame((()=>{i!==n.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)}))})),n.earlyResizerFunction||(n.earlyResizerFunction=function(){requestAnimationFrame((function(){_tpt.getWinDim(),_tpt.moduleDefaults(e.id,e),_tpt.updateSlideBg(t,!0)}))},window.addEventListener("resize",n.earlyResizerFunction))},_tpt.buildShadow=function(t,e){let s=SR7.M[t];null==s.c.shadow&&(s.c.shadow=document.createElement("sr7-module-shadow"),s.c.shadow.classList.add("sr7-shdw-"+e.shdw),s.c.content.appendChild(s.c.shadow))},_tpt.bgStyle=async(t,e,s,n,i)=>{const l=SR7.M[t];if((e=e??l.settings).fixed&&!l.c.module.classList.contains("sr7-top-fixed")&&(l.c.module.classList.add("sr7-top-fixed"),l.c.module.style.position="fixed",l.c.module.style.width="100%",l.c.module.style.top="0px",l.c.module.style.left="0px",l.c.module.style.pointerEvents="none",l.c.module.style.zIndex=5e3,l.c.content.style.pointerEvents="none"),null==l.c.bgcanvas){let t=document.createElement("sr7-module-bg"),o=!1;if("string"==typeof e?.bg?.color&&e?.bg?.color.includes("{"))if(_tpt.gradient&&_tpt.gsap)e.bg.color=_tpt.gradient.convert(e.bg.color);else try{let t=JSON.parse(e.bg.color);(t?.orig||t?.string)&&(e.bg.color=JSON.parse(e.bg.color))}catch(t){return}let r="string"==typeof e?.bg?.color?e?.bg?.color||"transparent":e?.bg?.color?.string??e?.bg?.color?.orig??e?.bg?.color?.color??"transparent";if(t.style["background"+(String(r).includes("grad")?"":"Color")]=r,("transparent"!==r||i)&&(o=!0),l.offsetPrepared&&(t.style.visibility="hidden"),e?.bg?.image?.src&&(t.style.backgroundImage=`url(${e?.bg?.image.src})`,t.style.backgroundSize=""==(e.bg.image?.size??"")?"cover":e.bg.image.size,t.style.backgroundPosition=e.bg.image.position,t.style.backgroundRepeat=""==e.bg.image.repeat||null==e.bg.image.repeat?"no-repeat":e.bg.image.repeat,o=!0),!o)return;l.c.bgcanvas=t,e.size.fullWidth?t.style.width=_tpt.winW-(s&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":n&&(t.style.width=l.c.module.offsetWidth+"px"),e.sbt?.use?l.c.content.appendChild(l.c.bgcanvas):l.c.module.appendChild(l.c.bgcanvas)}l.c.bgcanvas.style.height=void 0!==e.newh?e.newh+"px":("carousel"==e.type?l.dims.module.h:l.dims.content.h)+"px",l.c.bgcanvas.style.left=!s&&e.sbt?.use||l.c.bgcanvas.closest("SR7-CONTENT")?"0px":"-"+(l?.dims?.moduleRect?.left??0)+"px"},_tpt.updateSlideBg=function(t,e){const s=SR7.M[t];let n=s.settings;s?.c?.bgcanvas&&(n.size.fullWidth?s.c.bgcanvas.style.width=_tpt.winW-(e&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":preparing&&(s.c.bgcanvas.style.width=s.c.module.offsetWidth+"px"))},_tpt.moduleDefaults=(t,e)=>{let s=SR7.M[t];null!=s&&null!=s.c&&null!=s.c.module&&(s.dims??={},s.dims.moduleRect=s.c.module.getBoundingClientRect(),s.c.content.style.left="-"+s.dims.moduleRect.left+"px",s.c.content.style.width=_tpt.winW-_tpt.scrollBarW+"px","carousel"==e.type&&(s.c.module.style.overflow="visible"),_tpt.bgStyle(t,e,window.innerWidth==_tpt.winW))},_tpt.getOffset=t=>{var e=t.getBoundingClientRect(),s=window.pageXOffset||document.documentElement.scrollLeft,n=window.pageYOffset||document.documentElement.scrollTop;return{top:e.top+n,left:e.left+s}},_tpt.fillArray=function(t,e){let s,n;t=Array.isArray(t)?t:[t];let i=Array(e),l=t.length;for(n=0;n<t.length;n++)i[n+(e-l)]=t[n],null==s&&"#"!==t[n]&&(s=t[n]);for(let t=0;t<e;t++)void 0!==i[t]&&"#"!=i[t]||(i[t]=s),s=i[t];return i},_tpt.closestGE=function(t,e){let s=Number.MAX_VALUE,n=-1;for(let i=0;i<t.length;i++)t[i]-1>=e&&t[i]-1-e<s&&(s=t[i]-1-e,n=i);return++n}}();</script>
-<style type="text/css" data-type="vc_shortcodes-default-css">.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_btn{margin-bottom:22px;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_btn{margin-bottom:22px;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_custom_heading{margin-bottom:0.625rem;margin-top:0;}.vc_do_btn{margin-bottom:22px;}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1733905381733{padding-top: 50px !important;padding-right: 120px !important;padding-left: 120px !important;background-image: url(https://easternlifamilymed.com/wp-content/uploads/2024/12/Mask-Group-1.jpg?id=39) !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1733928602121{padding-top: 70px !important;padding-bottom: 70px !important;background-color: #FFFFFF !important;}.vc_custom_1733912097457{padding-top: 100px !important;padding-bottom: 100px !important;background-color: #EEEEEE !important;}.vc_custom_1733928566718{padding-top: 80px !important;padding-bottom: 60px !important;background-color: #FFFFFF !important;}.vc_custom_1733928533538{padding-top: 80px !important;padding-bottom: 30px !important;background-color: #EEEEEE !important;}.vc_custom_1733921109004{padding-top: 100px !important;padding-bottom: 100px !important;background-color: #FFFFFF !important;}.vc_custom_1733923762874{padding-top: 80px !important;padding-bottom: 80px !important;background-image: url(https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9586.jpg?id=106) !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1733906252318{border-bottom-width: 2px !important;padding-bottom: 40px !important;border-bottom-style: solid !important;border-color: #317BC5 !important;}.vc_custom_1733905738059{padding-top: 10px !important;}.vc_custom_1733926897746{padding-top: 0px !important;}.vc_custom_1733926890779{padding-top: 0px !important;}.vc_custom_1733906024897{margin-top: 0px !important;margin-bottom: 0px !important;}.vc_custom_1752870844470{margin-top: 0px !important;margin-bottom: 0px !important;}.vc_custom_1733906029201{margin-top: 0px !important;margin-bottom: 0px !important;}.vc_custom_1733905576155{margin-bottom: 20px !important;}.vc_custom_1733905610770{margin-bottom: 0px !important;}.vc_custom_1733905732386{padding-top: 0px !important;}.vc_custom_1733905679226{margin-bottom: 20px !important;}.vc_custom_1736897662105{margin-bottom: 15px !important;}.vc_custom_1733911579529{margin-bottom: 35px !important;}.vc_custom_1733906855642{margin-bottom: 20px !important;}.vc_custom_1736459719829{margin-bottom: 0px !important;}.vc_custom_1733906692107{margin-bottom: 20px !important;}.vc_custom_1736897816511{margin-top: 20px !important;}.vc_custom_1733911237545{border-right-width: 1px !important;padding-top: 0px !important;border-right-style: solid !important;border-color: #00000040 !important;}.vc_custom_1733911275377{padding-top: 0px !important;padding-left: 25px !important;}.vc_custom_1733912707328{margin-bottom: 20px !important;}.vc_custom_1733912714208{margin-bottom: 20px !important;}.vc_custom_1733912420720{margin-bottom: 0px !important;}.vc_custom_1734009443244{margin-bottom: 0px !important;}.vc_custom_1733918247737{padding-top: 50px !important;}.vc_custom_1733914227124{margin-bottom: 20px !important;}.vc_custom_1733914233396{margin-bottom: 20px !important;}.vc_custom_1734009458323{margin-bottom: 0px !important;}.vc_custom_1733914233396{margin-bottom: 20px !important;}.vc_custom_1733920895967{padding-top: 20px !important;}.vc_custom_1733918355123{margin-bottom: 20px !important;}.vc_custom_1733918363563{margin-bottom: 20px !important;}.vc_custom_1733921609036{margin-bottom: 30px !important;}.vc_custom_1733921200069{margin-bottom: 20px !important;}.vc_custom_1733921604020{margin-bottom: 30px !important;}.vc_custom_1733928470505{margin-bottom: 15px !important;}.vc_custom_1734009475988{margin-bottom: 0px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+</head>
+<body>
 
-<body class="home wp-singular page-template page-template-fullwidth page-template-fullwidth-php page page-id-9 wp-theme-custom-theme wpb-js-composer js-comp-ver-8.2 vc_responsive">
-
-
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-    	<header id="masthead" class="site-header navbar-static-top navbar-light" role="banner">
-        <div class="container-lg">
-            <nav class="navbar navbar-expand-xl p-0">
-                <div class="navbar-brand">
-                                            <a href="https://easternlifamilymed.com/">
-                            <img src="https://easternlifamilymed.com/wp-content/uploads/2025/01/updated-logo.png" alt="ELIFAMILYMEDICINE">
-                        </a>
-                    
-                </div>
-
-                <div class="menu-wraper">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div id="main-nav" class="collapse navbar-collapse justify-content-end"><ul id="menu-main-menu" class="navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item active menu-item-21 nav-item"><a title="Home" href="https://easternlifamilymed.com/" class="nav-link" aria-current="page">Home</a></li>
-<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20 nav-item"><a title="Services We Offer" href="https://easternlifamilymed.com/services-we-offer/" class="nav-link">Services We Offer</a></li>
-<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18 nav-item"><a title="About Us" href="https://easternlifamilymed.com/about-us/" class="nav-link">About Us</a></li>
-<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32 nav-item"><a title="Hours And Location" href="https://easternlifamilymed.com/hours-and-location/" class="nav-link">Hours And Location</a></li>
-<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33 nav-item"><a title="Schedule an Appointment" href="https://easternlifamilymed.com/schedule-an-appointment/" class="nav-link">Schedule an Appointment</a></li>
-</ul></div>                </div>
-
-                <div class="header-contact-button">
-                    <section id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-contact-menu-container"><ul id="menu-contact-menu" class="menu"><li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://easternlifamilymed.com/contact-us/">Contact Us</a></li>
-</ul></div></section>                </div>
-
-            </nav>
+    <div class="card">
+        <!-- Live Digital Clock -->
+        <div class="clock-container">
+            <div id="liveClock" class="clock-time">00:00:00</div>
+            <div id="liveDate" class="clock-date">Loading...</div>
         </div>
-	</header><!-- #masthead -->
-	
-	
-		
-    	<div id="content" class="site-content">
-		<div class="container">
-			<div class="row">
-                
-	<section id="primary" class="content-area col-sm-12">
-		<div id="main" class="site-main" role="main">
 
-			
-<article id="post-9" class="post-9 page type-page status-publish hentry">
-	
-	<div class="entry-content">
-		<div class="wpb-content-wrapper"><section id="hme-sec-one" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_section hme-sec-one vc_custom_1733905381733 vc_section-has-fill"><div class="vc_row wpb_row vc_row-fluid vc_custom_1733906252318 vc_row-has-fill vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner vc_custom_1733926897746"><div class="wpb_wrapper"><h2 style="color: #000000;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-one wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp" >Empower Yourself, Empower<br />
-Your Health</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner vc_custom_1733926890779"><div class="wpb_wrapper"><h2 style="color: #317BC5;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-two wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733906024897" >Call Us</h2>
-	<div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp hme-info-txt" >
-		<div class="wpb_wrapper">
-			<p><a href="tel:631-751-3883">631-751-3883</a></p>
-
-		</div>
-	</div>
-<h2 style="color: #317BC5;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-two wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1752870844470" >FAX</h2>
-	<div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp hme-info-txt" >
-		<div class="wpb_wrapper">
-			<p><a href="#">(631) 751-3909</a></p>
-
-		</div>
-	</div>
-<h2 style="color: #317BC5;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-two wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733906029201" >Find Us</h2>
-	<div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733905576155 hme-info-txt" >
-		<div class="wpb_wrapper">
-			<p>100 South Jersey Ave, Suite 14, E. Setauket, NY 11733</p>
-
-		</div>
-	</div>
-
-	<div  class="wpb_single_image wpb_content_element vc_align_right wpb_content_element wpb_animate_when_almost_visible wpb_zoomIn zoomIn vc_custom_1733905610770  hme-heart-icn">
-		
-		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" width="52" height="52" src="https://easternlifamilymed.com/wp-content/uploads/2024/12/health-care.png" class="vc_single_image-img attachment-full" alt="" title="" /></div>
-		</figure>
-	</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1733905738059"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1733905732386"><div class="wpb_wrapper">
-	<div  class="wpb_single_image wpb_content_element vc_align_center wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733905679226">
-		
-		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img fetchpriority="high" decoding="async" width="1810" height="709" src="https://easternlifamilymed.com/wp-content/uploads/2024/12/Rectangle-4752.png" class="vc_single_image-img attachment-full" alt="" title="" srcset="https://easternlifamilymed.com/wp-content/uploads/2024/12/Rectangle-4752.png 1810w, https://easternlifamilymed.com/wp-content/uploads/2024/12/Rectangle-4752-300x118.png 300w, https://easternlifamilymed.com/wp-content/uploads/2024/12/Rectangle-4752-1024x401.png 1024w, https://easternlifamilymed.com/wp-content/uploads/2024/12/Rectangle-4752-768x301.png 768w, https://easternlifamilymed.com/wp-content/uploads/2024/12/Rectangle-4752-1536x602.png 1536w" sizes="(max-width: 1810px) 100vw, 1810px" /></div>
-		</figure>
-	</div>
-</div></div></div></div></section><div class="vc_row-full-width vc_clearfix"></div><section id="hme-sec-two" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section hme-sec-two vc_custom_1733928602121 vc_section-has-fill"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-5"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #000000;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-thre wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp" >about us</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-7"><div class="vc_column-inner"><div class="wpb_wrapper">
-	<div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1736897662105 hme-txt-one d-none" >
-		<div class="wpb_wrapper">
-			<p>Sed Ut Perspiciatis Unde Omnis Iste Natus<br />
-Error Sit Voluptatem Accusantium.</p>
-
-		</div>
-	</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-7"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1733911579529 vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #317BC5;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-four wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp" >Your Journey To Better Health Starts Here</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container  hme-btn-one  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_btn3-right vc_custom_1736459719829 vc_do_btn" ><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey" href="https://easternlifamilymed.com/about-us/" title="Provider Bio">Learn More</a></div></div></div></div></div>
-	<div  class="wpb_single_image wpb_content_element vc_align_left wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733906855642">
-		
-		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" width="690" height="416" src="https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9582.png" class="vc_single_image-img attachment-full" alt="" title="" srcset="https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9582.png 690w, https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9582-300x181.png 300w" sizes="(max-width: 690px) 100vw, 690px" /></div>
-		</figure>
-	</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-5"><div class="vc_column-inner"><div class="wpb_wrapper">
-	<div  class="wpb_single_image wpb_content_element vc_align_left wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733906692107">
-		
-		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img loading="lazy" decoding="async" width="486" height="407" src="https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9587.png" class="vc_single_image-img attachment-full" alt="" title="" srcset="https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9587.png 486w, https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9587-300x251.png 300w" sizes="auto, (max-width: 486px) 100vw, 486px" /></div>
-		</figure>
-	</div>
-<div class="vc_row wpb_row vc_inner vc_row-fluid hme-counter-bx d-none vc_custom_1736897816511"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill"><div class="vc_column-inner vc_custom_1733911237545"><div class="wpb_wrapper"><div class="stats-block stats-top  hme-counter "><div class="aio-icon-top"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;"></div></div></div><div class="stats-desc" id="counter-responsv-wrap-7843"><div id="counter_49173860768e5f43b4f7b9" data-id="counter_49173860768e5f43b4f7b9"  data-ultimate-target='#counter-responsv-wrap-7843 .stats-number'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="stats-number ult-responsive" style="font-size:28px;  " data-speed="3" data-counter-value="275" data-separator="," data-decimal=".">0</div><div class="counter_suffix mycust ult-responsive"  data-ultimate-target='#counter-responsv-wrap-7843 .mycust'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="font-size:28px; color:">K</div><div id="title-counter_49173860768e5f43b4f7b9"  data-ultimate-target='#counter-responsv-wrap-7843 .stats-text'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="stats-text ult-responsive" style="font-size:18px;  ">Recovered Patients</div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1733911275377"><div class="wpb_wrapper"><div class="stats-block stats-top  hme-counter "><div class="aio-icon-top"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;"></div></div></div><div class="stats-desc" id="counter-responsv-wrap-2496"><div id="counter_14342713068e5f43b4f8ad" data-id="counter_14342713068e5f43b4f8ad"  data-ultimate-target='#counter-responsv-wrap-2496 .stats-number'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="stats-number ult-responsive" style="font-size:28px;  " data-speed="3" data-counter-value="96" data-separator="," data-decimal=".">0</div><div class="counter_suffix mycust ult-responsive"  data-ultimate-target='#counter-responsv-wrap-2496 .mycust'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="font-size:28px; color:">%</div><div id="title-counter_14342713068e5f43b4f8ad"  data-ultimate-target='#counter-responsv-wrap-2496 .stats-text'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="stats-text ult-responsive" style="font-size:18px;  ">Satisfaction Rate</div></div></div></div></div></div></div></div></div></div></div></section><div class="vc_row-full-width vc_clearfix"></div><section id="hme-sec-thre" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section hme-sec-thre vc_custom_1733912097457 vc_section-has-fill"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #000000;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-thre wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733912707328" >We Offer</h2><h2 style="color: #317BC5;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-four wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733912714208" >What We Do</h2>
-	<div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp hme-txt-two" >
-		<div class="wpb_wrapper">
-			<p>We are a Family Medicine practice located in East Setauket, New York. We are proud to be taking care of members of this community for over 20 years. We start seeing patients from age 5 and up. The greatest honor is being able to take care of multiple members of one’s family and being trusted with their care. We offer a wide range of services at our office, please visit each tab to learn more!</p>
-
-		</div>
-	</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="aio-icon-component   hme-info-bx white style_1"><div id="Info-box-wrap-8871" class="aio-icon-box top-icon" style=""  ><div class="aio-icon-top"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
-<div class="aio-icon-img " style="font-size:50px;display:inline-block;" data-animation="swing" data-animation-delay="03">
-	<img decoding="async" class="img-icon" alt="null" src="https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9579.png"/>
-</div></div></div></div><div class="aio-icon-header" ><h4 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-8871 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">General Medicine</h4></div> <!-- header --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="aio-icon-component   hme-info-bx blue style_1"><div id="Info-box-wrap-2839" class="aio-icon-box top-icon" style=""  ><div class="aio-icon-top"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
-<div class="aio-icon-img " style="font-size:50px;display:inline-block;" data-animation="swing" data-animation-delay="03">
-	<img decoding="async" class="img-icon" alt="null" src="https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9580.png"/>
-</div></div></div></div><div class="aio-icon-header" ><h4 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-2839 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Pediatric Care</h4></div> <!-- header --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="aio-icon-component   hme-info-bx white style_1"><div id="Info-box-wrap-3688" class="aio-icon-box top-icon" style=""  ><div class="aio-icon-top"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
-<div class="aio-icon-img " style="font-size:50px;display:inline-block;" data-animation="swing" data-animation-delay="03">
-	<img decoding="async" class="img-icon" alt="null" src="https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9581.png"/>
-</div></div></div></div><div class="aio-icon-header" ><h4 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-3688 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">Women's Health</h4></div> <!-- header --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="aio-icon-component   hme-info-bx blue style_1"><div id="Info-box-wrap-3878" class="aio-icon-box top-icon" style=""  ><div class="aio-icon-top"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
-<div class="aio-icon-img " style="font-size:50px;display:inline-block;" data-animation="swing" data-animation-delay="03">
-	<img decoding="async" class="img-icon" alt="null" src="https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9582-1.png"/>
-</div></div></div></div><div class="aio-icon-header" ><h4 class="aio-icon-title ult-responsive"  data-ultimate-target='#Info-box-wrap-3878 .aio-icon-title'  data-responsive-json-new='{"font-size":"","line-height":""}'  style="">In Office Surgery</h4></div> <!-- header --></div> <!-- aio-icon-box --></div> <!-- aio-icon-component --></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-	<div  class="wpb_single_image wpb_content_element vc_align_center wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733912420720">
-		
-		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img loading="lazy" decoding="async" width="568" height="267" src="https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9584.png" class="vc_single_image-img attachment-full" alt="" title="" srcset="https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9584.png 568w, https://easternlifamilymed.com/wp-content/uploads/2024/12/Group-9584-300x141.png 300w" sizes="auto, (max-width: 568px) 100vw, 568px" /></div>
-		</figure>
-	</div>
-<div class="vc_btn3-container  hme-btn-one btn-two  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_btn3-inline vc_custom_1734009443244 vc_do_btn" ><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey" href="https://easternlifamilymed.com/services-we-offer/" title="Services We Offer">View All Services</a></div></div></div></div></div></section><div class="vc_row-full-width vc_clearfix"></div><section id="hme-sec-four" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section hme-sec-four vc_custom_1733928566718 vc_section-has-fill"><div class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #317BC5;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-four wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733914233396" >Choose Life Choose Health</h2></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1733918247737"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">  <div class="row staffinner">
-           <div class="col-md-4">
-            <div class="staff-info" >
-                <div class="staff-figure" style="mask-image: url('https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/images/mask-img.png');">
-                    <img decoding="async" src="https://easternlifamilymed.com/wp-content/uploads/2025/01/Catheryne-Photo-e1738015103365.jpg">
-                </div> 
-                <div class="staff-desc">
-                    <h4>Catheryne</h4>
-                    <p>Nurse Practitioner</p>
-                </div>
-                <div class="link-img">
-                    <a href="#!"><img decoding="async" src="https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/images/link-img.png"></a>
-                </div>
-            </div>
+        <h3 style="margin-top:0">⏰ Mike's Custom Alarms (<span id="totalCount">0</span>/7)</h3>
+        
+        <div class="input-group">
+            <label>Master Volume: <span id="volLabel">100%</span></label>
+            <input type="range" id="volSlider" class="vol-slider" min="0" max="1" step="0.01" value="1" oninput="updateVolume(this.value)">
         </div>
-           
-           <div class="col-md-4">
-            <div class="staff-info" >
-                <div class="staff-figure" style="mask-image: url('https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/images/mask-img.png');">
-                    <img decoding="async" src="https://easternlifamilymed.com/wp-content/uploads/2025/01/Dr.Ng-Photo-e1738015125722.jpg">
-                </div> 
-                <div class="staff-desc">
-                    <h4>Dr.Christopher Ng</h4>
-                    <p>Physician</p>
-                </div>
-                <div class="link-img">
-                    <a href="#!"><img decoding="async" src="https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/images/link-img.png"></a>
-                </div>
-            </div>
-        </div>
-           
-     </div>
-  
-	<div class="wpb_text_column wpb_content_element" >
-		<div class="wpb_wrapper">
-			
 
-		</div>
-	</div>
-</div></div></div></div></section><div class="vc_row-full-width vc_clearfix"></div><section id="hme-sec-five" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section hme-sec-five vc_custom_1733928533538 vc_section-has-fill"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #000000;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-thre wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733918355123" >reviews</h2><h2 style="color: #317BC5;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-four wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733918363563" >Patient Say About Us</h2></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1733920895967"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">    <div class="testimonial-bx">
-        <div class="slider-nav">
-                  <div class="testnav-item">
-                <div class="figure-nav">
-                    <img decoding="async" src="" alt="thumbnail">
-                </div>
-                <div class="desc-nav">
-                    <h5>Robert  M</h5>
-                    <p>Patient</p>
-                </div>
-            </div>
-                  <div class="testnav-item">
-                <div class="figure-nav">
-                    <img decoding="async" src="" alt="thumbnail">
-                </div>
-                <div class="desc-nav">
-                    <h5>Teresa R</h5>
-                    <p>Patient</p>
-                </div>
-            </div>
-                  <div class="testnav-item">
-                <div class="figure-nav">
-                    <img decoding="async" src="" alt="thumbnail">
-                </div>
-                <div class="desc-nav">
-                    <h5>Robert B</h5>
-                    <p>Patient</p>
-                </div>
-            </div>
-                  <div class="testnav-item">
-                <div class="figure-nav">
-                    <img decoding="async" src="" alt="thumbnail">
-                </div>
-                <div class="desc-nav">
-                    <h5>John P</h5>
-                    <p>Patient</p>
-                </div>
-            </div>
-                  <div class="testnav-item">
-                <div class="figure-nav">
-                    <img decoding="async" src="" alt="thumbnail">
-                </div>
-                <div class="desc-nav">
-                    <h5>Mark L</h5>
-                    <p>Patient</p>
-                </div>
-            </div>
-          </div>
-    
-    <div class="slider-for">
-                  <div class="content-item">
-                <div class="testimonial-info">
-                    <div class="testimonial-content">
-<!--                         <h5></h5> -->
-                    	<h5>Robert  M</h5>
-                        <p>Dr. Ng and staff have been a pleasure to work with!</p>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-                  <div class="content-item">
-                <div class="testimonial-info">
-                    <div class="testimonial-content">
-<!--                         <h5></h5> -->
-                    	<h5>Teresa R</h5>
-                        <p>I've been treated by Dr. Ng since he took over the practice. He is kind and so is his staff. He has helped me over a few bumps in the road and hasn't given me bad advice. I've read the reviews here and can say with honesty , I've NEVER seen any staff member act like God. I've seen professionals trying to get and keep me well. See for yourself!</p>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-                  <div class="content-item">
-                <div class="testimonial-info">
-                    <div class="testimonial-content">
-<!--                         <h5></h5> -->
-                    	<h5>Robert B</h5>
-                        <p>I have been seeing Dr.Ng as my primary physician for over 10 years and he has always seen to my health needs with care and compassion. Dr.Ng is truly invested in the good health of his patients.</p>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-                  <div class="content-item">
-                <div class="testimonial-info">
-                    <div class="testimonial-content">
-<!--                         <h5></h5> -->
-                    	<h5>John P</h5>
-                        <p>I started seeing Dr.Ng since 2022. I was diagnosed with Lymes Disease, Dr.Ng put me on a regimen that cleared my symptoms. Very attentive, caring office with excellent follow up. Also do not have to wait long for service!</p>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-                  <div class="content-item">
-                <div class="testimonial-info">
-                    <div class="testimonial-content">
-<!--                         <h5></h5> -->
-                    	<h5>Mark L</h5>
-                        <p>Prior to becoming a patient of Dr. Ng’s, I had a variety of doctors which were just care providers and nothing else. Some were ok others were terrible. I have hypertension and Dr. Ng was the first doctor to consistently control my blood pressure. He takes the time to thoroughly understand my condition and seems to genuinely care about my health. Dr. Ng is the consummate professional yet does not come off as cold or superior. He has always treated me well and with respect which is why I have been his patient for the past decade.</p>
-                        <div class="star-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-          </div>
+        <div class="input-group">
+            <label>Alarm Name</label>
+            <input type="text" id="nameInput" placeholder="e.g., Mike's New Custom Alarm">
+        </div>
+
+        <div class="input-group">
+            <label>Date & Time</label>
+            <input type="datetime-local" id="timeInput">
+        </div>
+        
+        <div class="input-group">
+            <label>Sound File</label>
+            <input type="file" id="audioInput" accept="audio/*">
+            <button class="btn-main" style="background:#888; font-size: 0.85em; padding: 6px;" onclick="togglePreview()" id="testBtn">Test Sound</button>
+        </div>
+
+        <button class="btn-main" onclick="addAlarm()">Set Alarm</button>
+        <button class="btn-main btn-view" onclick="toggleModal(true)">View All Alarms</button>
     </div>
-   
-  
-	<div class="wpb_text_column wpb_content_element" >
-		<div class="wpb_wrapper">
-			
 
-		</div>
-	</div>
-</div></div></div></div></section><div class="vc_row-full-width vc_clearfix"></div><section id="hme-sec-six" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section hme-sec-six vc_custom_1733921109004 vc_section-has-fill"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #317BC5;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-four wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733921609036" >Opening Hours</h2>
-	<div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp working-hrs-txt" >
-		<div class="wpb_wrapper">
-			<p>Monday: 10:00am to 6:00pm</p>
-<p>Tuesday: 9:00am to 1:30pm</p>
-<p>Wednesday: 10:30am to 7:00pm</p>
-<p>Thursday: 9:00am to 5:00pm</p>
-<p>Friday: 9:00am to 1:30pm</p>
-<p>Select Saturdays: 9:00am to 12:00pm (Please Call Our Office To Confirm Which Saturdays We Are In Office)</p>
-
-		</div>
-	</div>
-<h2 style="color: #000000;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-five wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733921200069" >Call Us Anytime</h2><div class="vc_btn3-container  hme-call-btn  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_btn3-inline vc_do_btn" ><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-grey" href="tel:(631)751-3883" title=""><i class="vc_btn3-icon fas fa-phone-alt"></i> (631)751-3883</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #317BC5;text-align: left" class="vc_custom_heading vc_do_custom_heading hme-heading-four wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733921604020" >Appointment Form</h2>
-<div class="wpcf7 no-js" id="wpcf7-f5-p9-o1" lang="en-US" dir="ltr" data-wpcf7-id="5">
-<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="/#wpcf7-f5-p9-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="5" />
-<input type="hidden" name="_wpcf7_version" value="6.0.4" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-p9-o1" />
-<input type="hidden" name="_wpcf7_container_post" value="9" />
-<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-</div>
-<div class="row cnct-frm">
-	<div class="col-md-6">
-		<p><span class="wpcf7-form-control-wrap" data-name="first-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Full Name" value="" type="text" name="first-name" /></span>
-		</p>
-	</div>
-	<div class="col-md-6">
-		<p><span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Address" value="" type="email" name="your-email" /></span>
-		</p>
-	</div>
-	<div class="col-md-6">
-		<p><span class="wpcf7-form-control-wrap" data-name="select-455"><select class="wpcf7-form-control wpcf7-select" aria-invalid="false" name="select-455"><option value="">Select a Reason</option><option value="New Patient Appointment">New Patient Appointment</option><option value="Existing Patient Appointment">Existing Patient Appointment</option><option value="Fire/EMS Appointment">Fire/EMS Appointment</option></select></span>
-		</p>
-	</div>
-	<div class="col-md-6">
-		<p><span class="wpcf7-form-control-wrap" data-name="phone"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel" autocomplete="tel" aria-invalid="false" placeholder="Phone Number" value="" type="tel" name="phone" /></span>
-		</p>
-	</div>
-	<div class="col-md-12">
-		<p><span class="wpcf7-form-control-wrap" data-name="your-message"><textarea cols="40" rows="3" maxlength="2000" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Your Message" name="your-message"></textarea></span>
-		</p>
-	</div>
-	<div class="col-md-4">
-		<p><span class="wpcf7-form-control-wrap" data-name="date-582"><input class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date" aria-required="true" aria-invalid="false" value="" type="date" name="date-582" /></span><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Send Request" />
-		</p>
-	</div>
-	<div class="col-md-8">
-		<p>If you would like to schedule an appointment with our office, please call our office during business hours or fill out the information above and one of our friendly staff will contact you to schedule your appointment. This forum is intended to send your proper contact information to our practice so one of our friendly staff can contact you directly to schedule an appointment. Please do not share any personal health information when sending a message to our practice. Thank you!
-		</p>
-	</div>
-	<div class="col-md-12">
-		<p>For any New Patients and/or Fire/EMS personnel, along with completing the appointment form above; please follow one of the links below to complete our intake forms so we can properly review your medical history before your appointment
-		</p>
-		<p>New Patient Packet-<a href="https://signnow.com/s/yvJ8wogZ" target="_blank">https://signnow.com/s/yvJ8wogZ</a>
-		</p>
-		<p>Fire/EMS Member Packet-<a href="https://signnow.com/s/Jy8kLFAi" target="_blank">https://signnow.com/s/Jy8kLFAi</a>
-		</p>
-	</div>
-</div><div class="wpcf7-response-output" aria-hidden="true"></div>
-</form>
-</div>
-</div></div></div></div></section><div class="vc_row-full-width vc_clearfix"></div><section id="hme-sec-seven" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section hme-sec-seven vc_custom_1733923762874 vc_section-has-fill"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #000000;text-align: center" class="vc_custom_heading vc_do_custom_heading hme-heading-four wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1733928470505" >Revolutionizing Health, One Step At A Time<br />
-Unleash Your Health Potential</h2>
-	<div class="wpb_text_column wpb_content_element wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp hme-txt-thre d-none" >
-		<div class="wpb_wrapper">
-			<p style="text-align: center;">Sed Ut Perspiciatis Unde Omnis Iste Natus Error Sit Voluptatem Accusantium Doloremque Laudantium, Totam Rem Aperiam, Eaque Ipsa Quae Ab Illo Inventore Veritatis Et Quasi Architecto Beatae Vitae Dicta Sunt Explicabo.</p>
-
-		</div>
-	</div>
-<div class="vc_btn3-container  hme-btn-one  wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_btn3-center vc_custom_1734009475988 vc_do_btn" ><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey" href="https://easternlifamilymed.com/contact-us/" title="Contact Us">Get In Touch</a></div></div></div></div></div></section><div class="vc_row-full-width vc_clearfix"></div>
-</div>	</div><!-- .entry-content -->
-
-	</article><!-- #post-## -->
-
-		</div><!-- #main -->
-	</section><!-- #primary -->
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js" type="text/javascript"></script>
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</div><!-- #content -->
-            <div id="footer-widget" class="row m-0 bg-light">
-            <div class="container">
-                <div class="row">
-                                            <div class="col-12 col-md-4"><section id="media_image-2" class="widget widget_media_image"><img width="2891" height="1342" src="https://easternlifamilymed.com/wp-content/uploads/2025/01/updated-logo.png" class="image wp-image-224  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://easternlifamilymed.com/wp-content/uploads/2025/01/updated-logo.png 2891w, https://easternlifamilymed.com/wp-content/uploads/2025/01/updated-logo-300x139.png 300w, https://easternlifamilymed.com/wp-content/uploads/2025/01/updated-logo-1024x475.png 1024w, https://easternlifamilymed.com/wp-content/uploads/2025/01/updated-logo-768x357.png 768w, https://easternlifamilymed.com/wp-content/uploads/2025/01/updated-logo-1536x713.png 1536w, https://easternlifamilymed.com/wp-content/uploads/2025/01/updated-logo-2048x951.png 2048w" sizes="auto, (max-width: 2891px) 100vw, 2891px" /></section><section id="text-2" class="widget widget_text">			<div class="textwidget">
-<div class="wpcf7 no-js" id="wpcf7-f110-o2" lang="en-US" dir="ltr" data-wpcf7-id="110">
-<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="/#wpcf7-f110-o2" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="110" />
-<input type="hidden" name="_wpcf7_version" value="6.0.4" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f110-o2" />
-<input type="hidden" name="_wpcf7_container_post" value="0" />
-<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-</div>
-<div class="row nws-frm">
-	<p><span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Enter Your Email" value="" type="email" name="your-email" /></span><button type="submit" class="wpcf7-submit"><i class="fas fa-paper-plane"></i></button><br />
-<img decoding="async" class="ajax-loader" src="/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden; opacity: 1;" />
-	</p>
-</div><div class="wpcf7-response-output" aria-hidden="true"></div>
-</form>
-</div>
-
-</div>
-		</section></div>
-                                                                <div class="col-12 col-md-2"><section id="nav_menu-3" class="widget widget_nav_menu"><h3 class="widget-title">Useful Links</h3><div class="menu-useful-links-container"><ul id="menu-useful-links" class="menu"><li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-9 current_page_item menu-item-111"><a href="https://easternlifamilymed.com/" aria-current="page">Home</a></li>
-<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://easternlifamilymed.com/services-we-offer/">Services We Offer</a></li>
-<li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="https://easternlifamilymed.com/about-us/">About Us</a></li>
-<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="https://easternlifamilymed.com/hours-and-location/">Hours And Location</a></li>
-<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="https://easternlifamilymed.com/schedule-an-appointment/">Schedule an Appointment</a></li>
-</ul></div></section></div>
-                                                                <div class="col-12 col-md-3"><section id="nav_menu-4" class="widget widget_nav_menu"><h3 class="widget-title">Our Departments</h3><div class="menu-our-department-container"><ul id="menu-our-department" class="menu"><li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-our_services menu-item-165"><a href="https://easternlifamilymed.com/our_services/general-medicine/">General Medicine</a></li>
-<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-our_services menu-item-146"><a href="https://easternlifamilymed.com/our_services/pediatric-care/">Pediatric Care</a></li>
-<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-our_services menu-item-147"><a href="https://easternlifamilymed.com/our_services/womens-health/">Women’s Health</a></li>
-<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-our_services menu-item-145"><a href="https://easternlifamilymed.com/our_services/in-office-surgery/">In Office Surgery</a></li>
-<li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-our_services menu-item-168"><a href="https://easternlifamilymed.com/our_services/other-special-services/">Other Special Services</a></li>
-</ul></div></section></div>
-                                                                <div class="col-12 col-md-3"><section id="custom_html-2" class="widget_text widget widget_custom_html"><h3 class="widget-title">Opening Hours</h3><div class="textwidget custom-html-widget"><ul class="ftr-working-list"> <li>Monday: 10:00am to 6:00pm</li> <li>Tuesday: 9:00am to 1:30pm</li> <li>Wednesday: 10:30am to 7:00pm</li> <li>Thursday: 9:00am to 5:00pm</li> <li>Friday: 9:00am to 1:30pm</li><li>Saturdays: 9:00am to 12:00pm (Please Call Our Office To Confirm Which Saturdays We Are In Office)</li></ul></div></section></div>
-                                                                <div class="col-12 col-md-12 ftr-five"><section id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><ul class="ftr-info"> <li><i class="fa-solid fa-location-dot"></i> <p><span>Medical Address</span> <a href="#!">100 South Jersey Avenue Suite 14, East Setauket, New York 11733
-Located in the Heritage Square Condiminums</a></p></li> <li><i class="fa-regular fa-envelope"></i> <p><span>Email Address</span> <a href="mailto:easternlifamilymed@gmail.com">easternlifamilymed@gmail.com</a></p></li> <li><i class="fa-solid fa-phone"></i>
-	<p><span>Office Number</span> <a href="tel:631-751-3883">631-751-3883</a>
-	
-	<p><span>Fax</span> <a href="#">(631) 751-3909</a></p>
-	</p>
-	
-	</li>
-
-</ul></div></section></div>
-                                    </div>
-            </div>
+    <!-- Modal List Window -->
+    <div id="alarmModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="toggleModal(false)">&times;</span>
+            <h3 style="margin-top:0">Alarm Status List</h3>
+            <div id="modalList"></div>
+            <button class="btn-main" style="background:#ff4d4d; margin-top:20px;" onclick="clearAll()">Clear All Alarms</button>
         </div>
+    </div>
 
-	<footer id="colophon" class="site-footer navbar-light" role="contentinfo">
-		<div class="container pt-3 pb-3">
-            <div class="site-info">
-            	<p>Copyright © 2024 <b>Elifamilymedicine</b> All Right Reserved</p>
-            	<ul>
-            		<li><a href="#!">Privacy Policy</a></li>
-            		<li><a href="#!">Terms & Condition</a></li>
-            	</ul>
-            </div><!-- close .site-info -->
-		</div>
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+    <audio id="player" loop></audio>
 
-<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/custom-theme\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
-<link rel='stylesheet' id='vc_animate-css-css' href='https://easternlifamilymed.com/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/animate.css/animate.min.css?ver=8.2' type='text/css' media='all' />
-<link rel='stylesheet' id='vc_google_fonts_abril_fatfaceregular-css' href='https://fonts.googleapis.com/css?family=Abril+Fatface%3Aregular&#038;ver=8.2' type='text/css' media='all' />
-<link rel='stylesheet' id='vc_font_awesome_5_shims-css' href='https://easternlifamilymed.com/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css?ver=8.2' type='text/css' media='all' />
-<link rel='stylesheet' id='vc_font_awesome_5-css' href='https://easternlifamilymed.com/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/@fortawesome/fontawesome-free/css/all.min.css?ver=8.2' type='text/css' media='all' />
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
-<script type="text/javascript" id="wp-i18n-js-after">
-/* <![CDATA[ */
-wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.4" id="swv-js"></script>
-<script type="text/javascript" id="contact-form-7-js-before">
-/* <![CDATA[ */
-var wpcf7 = {
-    "api": {
-        "root": "https:\/\/easternlifamilymed.com\/wp-json\/",
-        "namespace": "contact-form-7\/v1"
-    }
-};
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.4" id="contact-form-7-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/js/popper.min.js?ver=6.8.3" id="wp-bootstrap-starter-popper-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/js/bootstrap.min.js?ver=6.8.3" id="wp-bootstrap-starter-bootstrapjs-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/js/owl.carousel.min.js?ver=6.8.3" id="owl-carousel.min.js-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/js/theme-script.min.js?ver=6.8.3" id="wp-bootstrap-starter-themejs-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/themes/custom-theme/inc/assets/js/skip-link-focus-fix.min.js?ver=20151215" id="wp-bootstrap-starter-skip-link-focus-fix-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/js/social-icons-widget-frontend.js?ver=1733903427" id="zoom-social-icons-widget-frontend-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/info-box.min.js?ver=3.20.0" id="ultimate-vc-addons-info_box_js-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=8.2" id="wpb_composer_front_js-js"></script>
-<script type="text/javascript" src="https://easternlifamilymed.com/wp-content/plugins/js_composer/assets/lib/vc/vc_waypoints/vc-waypoints.min.js?ver=8.2" id="vc_waypoints-js"></script>
-<script></script>
+    <script>
+        const MAX = 7;
+        const SNOOZE_MS = 5 * 60 * 1000;
+        let alarms = [];
+        const player = document.getElementById('player');
+        let isPreviewing = false;
 
-<script>
-//  jQuery(document).ready(function() {
-//     jQuery('#owl_custom13').owlCarousel({
-//       items: 2,
-//       loop: false,
-//       nav: false,
-//       dots: false,
-//       center: true,
-//       margin: 30,
-//       stagePadding:0,
-//       autoplay: true,
-//       autoplayTimeout: 5000,
-//       autoplaySpeed: 1500,
-//       autoplayHoverPause: true,
-//       navText : ["<i class='fas fa-long-arrow-left'></i>","<i class='fas fa-long-arrow-right'></i>"],
-//       responsive:{
-//         0:{
-//           items:1,
-//         },
-//         600:{
-//           items:1,
-//         },
-//         1000:{
-//           items:3
-//         }
-//       }
-//     });
-//   });
-</script>
+        window.onload = () => {
+            const savedAlarms = localStorage.getItem('myAlarms');
+            const savedVol = localStorage.getItem('alarmVol');
 
+            if (savedAlarms) {
+                alarms = JSON.parse(savedAlarms).map(a => ({ ...a, time: new Date(a.time) }));
+                alarms.forEach(a => scheduleTimeout(a));
+            }
+            if (savedVol) {
+                updateVolume(savedVol);
+                document.getElementById('volSlider').value = savedVol;
+            }
+            updateCounts();
+            
+            // Start Clock and UI updates
+            setInterval(updateGlobalClock, 1000);
+            setInterval(refreshUI, 1000);
+        };
 
-<script>
-$('.slider-for').slick({
-   slidesToShow: 1,
-   slidesToScroll: 1,
-   infinite: true,
-   arrows: false,
-   dots: false,
-   autoplay: true,
-   speed: 500,
-   autoplaySpeed: 2000,
-   centerMode: false,
-   asNavFor: '.slider-nav' // Sync with navigation slider
-});
-
-$('.slider-nav').slick({
-   slidesToShow: 3, // Display 3 slides in navigation
-   slidesToScroll: 1,
-   arrows: false,
-   dots: false,
-   autoplay: true,
-   speed: 500,
-   autoplaySpeed: 2000,
-   centerMode: true, // Center the active nav
-   asNavFor: '.slider-for', // Sync with main slider
-   focusOnSelect: true, // Allow clicking on nav to navigate
-   infinite: true,
-   vertical: true
-});
-jQuery(document).ready(function($) {
-    function moveContactButton() {
-        // Check if the screen width is 1199px or smaller
-        if ($(window).width() <= 1199) {
-            // Move .header-contact-button li to #main-nav after the last li
-            $('.header-contact-button li').appendTo('#menu-main-menu');
-        } else {
-            // Move .header-contact-button li back to its original position
-            $('.header-contact-button li').appendTo('.header-contact-button');
+        function updateGlobalClock() {
+            const now = new Date();
+            document.getElementById('liveClock').innerText = now.toLocaleTimeString();
+            document.getElementById('liveDate').innerText = now.toDateString();
         }
-    }
 
-    // Run the function on page load
-    moveContactButton();
+        function updateVolume(val) {
+            player.volume = val;
+            document.getElementById('volLabel').innerText = Math.round(val * 100) + "%";
+            localStorage.setItem('alarmVol', val);
+        }
 
-    // Run the function when the window is resized
-    $(window).on('resize', function() {
-        moveContactButton();
-    });
-});
-</script>
+        async function togglePreview() {
+            const file = document.getElementById('audioInput').files[0];
+            if (!file) return alert("Select a file first!");
+            if (isPreviewing) {
+                player.pause(); player.src = "";
+                document.getElementById('testBtn').innerText = "Test Sound";
+                isPreviewing = false;
+            } else {
+                player.src = await toBase64(file);
+                player.play();
+                document.getElementById('testBtn').innerText = "⏹ Stop Preview";
+                isPreviewing = true;
+            }
+        }
 
+        async function addAlarm() {
+            const name = document.getElementById('nameInput').value || "Alarm";
+            const timeVal = document.getElementById('timeInput').value;
+            const file = document.getElementById('audioInput').files[0];
+
+            if (alarms.length >= MAX) return alert("Limit reached!");
+            if (!timeVal || !file) return alert("Time and sound required.");
+
+            const alarm = {
+                id: Date.now(),
+                name: name,
+                time: new Date(timeVal),
+                audioData: await toBase64(file),
+                status: 'active'
+            };
+
+            if (alarm.time <= new Date()) return alert("Damn it, Jim! I'm a clock, not a time machine... Pick a time in the future.");
+
+            alarms.push(alarm);
+            saveData();
+            scheduleTimeout(alarm);
+            updateCounts();
+            document.getElementById('nameInput').value = "";
+        }
+
+        function scheduleTimeout(a) {
+            const diff = a.time - new Date();
+            if (diff > 0) a.timeoutId = setTimeout(() => trigger(a.id), diff);
+        }
+
+        function trigger(id) {
+            const a = alarms.find(x => x.id === id);
+            if (a) {
+                a.status = 'ringing';
+                player.src = a.audioData;
+                player.play().catch(() => alert("RINGING: " + a.name));
+                toggleModal(true);
+            }
+        }
+
+        function stopAlarm(id) {
+            player.pause();
+            alarms = alarms.filter(a => a.id !== id);
+            saveData();
+            updateCounts();
+        }
+
+        function snoozeAlarm(id) {
+            player.pause();
+            const a = alarms.find(x => x.id === id);
+            if (a) {
+                a.time = new Date(Date.now() + SNOOZE_MS);
+                a.status = 'active';
+                scheduleTimeout(a);
+                saveData();
+            }
+        }
+
+        function clearAll() {
+            alarms.forEach(a => clearTimeout(a.timeoutId));
+            alarms = [];
+            player.pause();
+            saveData();
+            updateCounts();
+            toggleModal(false);
+        }
+
+        function toggleModal(show) {
+            document.getElementById('alarmModal').style.display = show ? 'block' : 'none';
+        }
+
+        function saveData() {
+            localStorage.setItem('myAlarms', JSON.stringify(alarms.map(({timeoutId, ...rest}) => rest)));
+        }
+
+        function updateCounts() {
+            document.getElementById('totalCount').innerText = alarms.length;
+        }
+
+        function refreshUI() {
+            const container = document.getElementById('modalList');
+            if (alarms.length === 0) {
+                container.innerHTML = "<p>No alarms currently set.</p>";
+                return;
+            }
+            container.innerHTML = alarms.map(a => `
+                <div class="alarm-item ${a.status === 'ringing' ? 'ringing' : ''}">
+                    <div style="max-width: 60%">
+                        <strong>${a.name}</strong><br>
+                        <small style="color:#666">${a.time.toLocaleString()}</small><br>
+                        <span class="countdown">${a.status === 'ringing' ? '🔔 RINGING!' : formatTime(a.time)}</span>
+                    </div>
+                    <div>
+                        ${a.status === 'ringing' ? 
+                            `<button class="btn-snooze" onclick="snoozeAlarm(${a.id})">Snooze</button>
+                             <button class="btn-danger" onclick="stopAlarm(${a.id})">Stop</button>` : 
+                            `<button class="btn-danger" onclick="stopAlarm(${a.id})">Delete</button>`
+                        }
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function formatTime(target) {
+            const diff = target - new Date();
+            if (diff <= 0) return "00:00:00";
+            const h = Math.floor(diff / 3600000);
+            const m = Math.floor((diff % 3600000) / 60000);
+            const s = Math.floor((diff % 60000) / 1000);
+            return `${h}h ${m}m ${s}s`.replace(/\b(\d)\b/g, '0$1');
+        }
+
+        const toBase64 = f => new Promise((res, rej) => {
+            const r = new FileReader(); r.readAsDataURL(f);
+            r.onload = () => res(r.result); r.onerror = rej;
+        });
+    </script>
 </body>
 </html>
